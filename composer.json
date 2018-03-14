@@ -1,0 +1,23 @@
+{
+    "name": "lamarques/getnet",
+    "description": "Gateway de pagamentos com a getnet",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogerio Lamarques",
+            "email": "rogerio.lamarques@lamarques.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lamarques\\": "src/",
+            "tests": "tests/"
+        }
+    }
+}

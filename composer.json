@@ -16,8 +16,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Lamarques\\": "src/",
-            "tests": "tests/"
+            "Lamarques\\": "src/"
         }
     }
 }
